@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Fri, 06 Jul 2018 23:18:52 +0530
+Source: xserver-xorg-input-evdev
+Binary: xserver-xorg-input-evdev xserver-xorg-input-evdev-udeb xserver-xorg-input-evdev-dev xserver-xorg-input-evdev-dbg
+Architecture: amd64 all
+Version: 1:2.10.1-1ubuntu5
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>
+Changed-By: root <root@ganesh-lin>
+Description:
+ xserver-xorg-input-evdev - X.Org X server -- evdev input driver
+ xserver-xorg-input-evdev-dbg - X.Org X server -- evdev input driver (debug symbols)
+ xserver-xorg-input-evdev-dev - X.Org X server -- evdev input driver (development headers)
+ xserver-xorg-input-evdev-udeb - X.Org X server -- evdev input driver (udeb)
+Changes:
+ xserver-xorg-input-evdev (1:2.10.1-1ubuntu5) UNRELEASED; urgency=medium
+ .
+   * Debounce fix for mouses with 'single click registering as double click' problem
+   *
+   *
+Checksums-Sha1:
+ 8375bcbac222838d2c8cf69e30df0720226f819a 86600 xserver-xorg-input-evdev-dbg_2.10.1-1ubuntu5_amd64.deb
+ 0a332c96eef3e9c23d679e9886ac3b1d51367c45 12684 xserver-xorg-input-evdev-dev_2.10.1-1ubuntu5_all.deb
+ 1465dd6b8189a2e1fa0471121dc6117b17b25351 24186 xserver-xorg-input-evdev-udeb_2.10.1-1ubuntu5_amd64.udeb
+ 45d0f2560336c3ba8ce764fe67368d983b26ac67 39624 xserver-xorg-input-evdev_2.10.1-1ubuntu5_amd64.deb
+Checksums-Sha256:
+ 6d451fdf2dc76ab6da93dc251b9db9c55d55238f0ce3bd173593af69000bfa02 86600 xserver-xorg-input-evdev-dbg_2.10.1-1ubuntu5_amd64.deb
+ 0660b896202ea5b83d055ec95d352e67026348cf26f497c5841e3f5ec2d5e9ab 12684 xserver-xorg-input-evdev-dev_2.10.1-1ubuntu5_all.deb
+ aadbbe7b29b6b621900a1de0952e238f67654e8a8fa91322e3d17da765bbb334 24186 xserver-xorg-input-evdev-udeb_2.10.1-1ubuntu5_amd64.udeb
+ 9a6f22d9d17c74dfe7d05143c9fe84cfc03c4f05f2e90d36079ee8a98d590675 39624 xserver-xorg-input-evdev_2.10.1-1ubuntu5_amd64.deb
+Files:
+ 15c518e6d01748856f0bc9ce29d6170e 86600 debug extra xserver-xorg-input-evdev-dbg_2.10.1-1ubuntu5_amd64.deb
+ 99b3f724ef566672fa514a3812e24899 12684 libdevel optional xserver-xorg-input-evdev-dev_2.10.1-1ubuntu5_all.deb
+ 4584deda6d961e440f7f21794f7b9867 24186 debian-installer optional xserver-xorg-input-evdev-udeb_2.10.1-1ubuntu5_amd64.udeb
+ 9a8db212481be7226084e3e4e3bf870f 39624 x11 optional xserver-xorg-input-evdev_2.10.1-1ubuntu5_amd64.deb
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Package-Type: udeb
